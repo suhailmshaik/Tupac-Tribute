@@ -1,0 +1,136 @@
+.content {
+  background-color: #000000;
+  color: #ffc600;
+  display: flex;
+  flex-direction: column;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  padding: 30px;
+
+  background: linear-gradient(269deg, #ffffff, #20559f, #9f2057, #ffffff);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 11s ease infinite;
+  -moz-animation: AnimationName 11s ease infinite;
+  animation: AnimationName 11s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 51%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 51%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 51%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+h1 {
+  margin-left: 10px;
+  font-family: "Rock Salt", cursive;
+}
+
+.push {
+  margin-left: auto;
+}
+
+header a {
+  margin: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 1150px;
+  padding: 30px;
+  margin: 30px;
+  background-color: #151515;
+}
+
+#pictures {
+  padding: 30px;
+  margin: 30px;
+  background-color: #151515;
+  height: 400px;
+  width: 1150px;
+}
+
+.pics {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pic {
+  height: 250px;
+  width: auto;
+}
+
+#quote {
+  padding: 30px;
+  margin: 30px;
+  background-color: #151515;
+  height: 250px;
+  width: 1150px;
+}
+
+#quote .q {
+  font-size: 3em;
+  font-family: "Reenie Beanie", cursive;
+  text-align: center;
+}
+
+.t {
+  text-align: right;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
+  font-family: "Rock Salt", cursive;
+}
+
+a {
+  color: #ffc600;
+  text-decoration: none;
+}
