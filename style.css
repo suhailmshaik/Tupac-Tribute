@@ -134,3 +134,102 @@ a {
   color: #ffc600;
   text-decoration: none;
 }
+
+/* responsive styling (not completed yet) */
+
+/* @media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  header {
+    height: 50%;
+    width: 50%;
+  }
+
+  .tupac {
+    height: 50%;
+    width: 50%;
+  }
+
+  main {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  #about {
+    height: 50%;
+    width: 50%;
+    margin: 10px;
+    padding: 60px;
+  }
+
+  #about h3 {
+    width: 150%;
+    align-self: center;
+    margin: 10px;
+    margin-bottom: 10px;
+  }
+
+  #about h2 {
+    width: 150%;
+    align-self: center;
+    margin: 0px;
+  }
+
+  #about p {
+    width: 150%;
+    align-self: center;
+    margin-top: 0px;
+  }
+
+  #about a {
+    width: 150%;
+    align-self: center;
+  }
+
+  #pictures {
+    height: 50%;
+    width: 50%;
+    margin: 10px;
+    padding: 60px;
+  }
+
+  #pictures h2 {
+  }
+
+  .pics {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pic {
+    margin: 1em;
+    width: 150%;
+    align-self: center;
+  }
+
+  #quote {
+    height: 50%;
+    width: 50%;
+    font-size: 0.5em;
+    margin: 10px;
+    padding: 60px;
+  }
+
+  #quote h2 {
+    width: 150%;
+    align-self: center;
+  }
+
+  q {
+    width: 150%;
+    align-self: center;
+    margin: 0px;
+  }
+
+  t {
+    width: 150%;
+    align-self: center;
+  }
+} */
